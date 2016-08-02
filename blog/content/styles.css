@@ -157,12 +157,22 @@ input {
     font-size: 30px;
 }
 .new-form-input {
-     width: 40%;
-     height:10%;
+    width: 40%;
+    height:10%;
     margin-top: 0%;
     padding-bottom: inherit;
 }
 .asideClass {
     background-color: #ffd034;
     padding-bottom: 100px;
+}
+table {
+    background-color: #fff9d4;
+    text-align: center;
+}
+table th, table td {
+    background: #ff7b31;
+}
+a {
+    color: #290016;
 }
