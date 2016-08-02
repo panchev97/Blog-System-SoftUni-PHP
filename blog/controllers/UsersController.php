@@ -17,9 +17,9 @@ class UsersController extends BaseController
             if(strlen($password) < 2 || strlen($password) > 50) {
                 $this->setValidationError("password", "Invalid password!");
             }
-            $full_name = $_POST['full_name'];
+            $full_name = $_POST['fullname'];
             if(strlen($full_name) > 200) {
-                $this->setValidationError("full_name", "Invalid full name!");
+                $this->setValidationError("fullname", "Invalid full name!");
             }
             if($this->formValid()){
                 $userId = $this->model->register($username, $password, $full_name);
