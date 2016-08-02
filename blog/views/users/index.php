@@ -1,6 +1,6 @@
 <?php $this->title = 'Users'; ?>
 <h1><?= htmlspecialchars($this->title) ?></h1>
-<table>
+<table align="center">
 
     <tr>
         <th>ID</th>
