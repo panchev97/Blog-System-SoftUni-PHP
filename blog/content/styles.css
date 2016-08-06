@@ -93,6 +93,8 @@ a:hover {
 }
 a:link {
     text-decoration: none;
+    padding-bottom: 10px;
+
 }
 a:active {
     text-decoration: underline;
@@ -111,12 +113,12 @@ input[type=submit] {
     width: 50%;
     background-color: #ff7b31;
     color: white;
-    padding: 10px 70px;
+    padding: 8px 70px;
     margin: -10px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    padding-bottom: 0%;
+    padding-bottom: 5%;
 }
 body {
     margin: 0 auto;
