@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
-    ReWriteEngine On
-    RewriteCond %{Request_URL} !^(/[a-zA-Z0-9_-]+)?/content/.*$
-    RewriteRule ^ index.php
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^(/[a-zA-Z0-9_-]+)?/content/.*$
+RewriteRule ^ index.php
 </IfModule>
