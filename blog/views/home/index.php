@@ -15,7 +15,6 @@
                 <center><h2 class="title"><?=htmlentities($post['title'])?></h2> </center>
                 <div class="date"><i>Posted on</i>
                     <?=(new DateTime($post['date']))->format('d-M-Y') ?>
-                    <i> by </i><?=htmlentities($post['full_name'])?>
                 </div>
                 <center><p class="content"><?=$post['content']?></p></center>
             <?php endforeach ?>
